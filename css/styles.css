@@ -18,7 +18,14 @@ a {
   color: white;
 }
 a:hover {
-  color: #6633ff;
+  color: #8516f0;
+}
+
+.a-link {text-decoration: none;
+  color: white;
+}
+.a-link:hover {
+  color: white;
 }
 
 .a-paragraph {
@@ -60,7 +67,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #00ddff
 }
 
 header {
@@ -94,6 +101,19 @@ header .profile-image:hover {
   border: solid;
   border-color:#3377ff
 } 
+
+.tag-new:hover {
+  background-color: #effffa;
+  color:rgb(35, 35, 35);
+  padding: 15px;
+  border-radius: 10px;
+  display: table;
+  margin: 10px auto;
+  border: solid;
+  border-color:#3377ff;
+  transform: scale(1.01);
+} 
+
 .location {
   background-color: #effffa;
   color:rgb(35, 35, 35);
@@ -104,6 +124,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  min-height: 450px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -213,6 +234,12 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  u {
+    text-decoration: underline;
+    text-decoration-color:#8516f0 ;
+    color: black;
   }
 
 }
